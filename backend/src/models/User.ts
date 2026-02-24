@@ -1,4 +1,4 @@
-import type { StringLike } from 'bun';
+
 import mongoose , {Schema, type Document} from 'mongoose';
 
 export interface IUser extends Document {
